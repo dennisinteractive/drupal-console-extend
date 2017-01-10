@@ -8,6 +8,14 @@
             "email": "jesus.olivas@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:dennisinteractive/drupal-console-core.git",
+            "vendor-alias": "drupal",
+            "no-api": true
+        }
+    ],
     "require": {
         "eureka/component-yaml": "^1.0"
     },
@@ -17,7 +25,7 @@
         "psr-4": {"Drupal\\Console\\Extend\\": "src"}
     },
     "require-dev": {
-        "drupal/console-core": "~1.0",
+        "drupal/console-core": "nested_chains-dev",
         "composer/installers": "^1.2"
     },
     "scripts": {

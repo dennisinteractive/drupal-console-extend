@@ -14,12 +14,6 @@
             "url": "git@github.com:dennisinteractive/drupal-console-core.git",
             "vendor-alias": "drupal",
             "no-api": true
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:dennisinteractive/drupal-console-launcher.git",
-            "vendor-alias": "drupal",
-            "no-api": true
         }
     ],
     "require": {

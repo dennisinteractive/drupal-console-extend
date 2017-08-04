@@ -17,7 +17,8 @@
         }
     ],
     "require": {
-        "eureka/component-yaml": "^1.0"
+        "eureka/component-yaml": "^1.0",
+        "drupal/console-core": "fix_env_detection-dev"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -25,7 +26,6 @@
         "psr-4": {"Drupal\\Console\\Extend\\": "src"}
     },
     "require-dev": {
-        "drupal/console-core": "nested_chains-dev",
         "composer/installers": "^1.2"
     },
     "scripts": {

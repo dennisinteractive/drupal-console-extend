@@ -16,5 +16,10 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {"Drupal\\Console\\Extend\\": "src"}
+    },
+     "extra": {
+        "installer-paths": {
+            "vendor/{$vendor}/{$name}": ["type:drupal-console-library"]
+        }
     }
 }
